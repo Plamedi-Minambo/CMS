@@ -247,7 +247,7 @@ namespace CMS.Controllers
 
 
 
-        // POST: Claims/Delete/5
+        // POST: Claims/Delete/55
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
