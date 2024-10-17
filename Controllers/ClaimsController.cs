@@ -235,7 +235,7 @@ namespace CMS.Controllers
             var claim = await _context.Claim.FindAsync(claimId);
             if (claim != null)
             {
-                // Optionally, update the status to "Rejected" or keep it in "Pending"
+                // Optionally, update the status to "Rejected" or keep it in "Pendingg"
                 claim.Status = "Rejected";
                 _context.Update(claim);
                 await _context.SaveChangesAsync();
